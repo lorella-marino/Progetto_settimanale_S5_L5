@@ -1,0 +1,444 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background-color: #ffc017;
+  position: relative;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+hr {
+  border: 1px solid #1919195a;
+  margin: 0;
+}
+
+nav div {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+nav div p {
+  margin: 0 10px;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+nav div button {
+  background-color: #191919;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  color: white;
+  font-weight: 500;
+  padding: 0 15px;
+  margin-left: 10px;
+}
+
+#hero {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+
+#hero h1 {
+  font-family: "Spectral", serif;
+  font-size: 5rem;
+}
+
+#hero h2 {
+  font-size: 1.3rem;
+  margin: 20px 0;
+}
+
+#hero button {
+  background-color: #191919;
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0 35px;
+  margin-top: 25px;
+}
+
+#containerhero {
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+}
+
+header svg {
+  width: 500px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+/* MAIN */
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-top: 35px;
+}
+
+#trend {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.numero {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1919192f;
+  margin-right: 15px;
+}
+
+.articolo1 img,
+.articolobig div img {
+  border-radius: 50%;
+  width: 23px;
+}
+
+.nome {
+  font-size: 0.65rem;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.titoloart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.data {
+  color: #191919a2;
+  font-size: 0.7rem;
+}
+
+.stella {
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+}
+
+.stella img {
+  margin-left: 5px;
+  padding-bottom: 1px;
+}
+
+.articolo {
+  width: 32%;
+  display: flex;
+  margin: 20px 0;
+}
+
+.articolo1 div,
+.articolobig div {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.articolo1 div,
+.articolobig div,
+.titoloart,
+.titoloartbig {
+  margin-bottom: 15px;
+}
+
+#articoli {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#hr3 {
+  width: 100%;
+  border: 1px solid #1919190e;
+  margin: 0;
+}
+
+/* SECTION */
+
+section {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.articolobig {
+  width: 75%;
+}
+
+.titoloartbig {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.articolobig p {
+  color: #191919a2;
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+}
+
+.stella button {
+  border: none;
+  height: 25px;
+  border-radius: 30px;
+  padding: 0 8px;
+  color: #191919a2;
+  margin: 0 0 0 5px;
+  font-size: 0.8rem;
+}
+
+.riga {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 5px 0 0 0 !important;
+}
+
+.salva {
+  border-radius: 0 !important;
+  width: 25px !important;
+  padding-bottom: 7px;
+}
+
+#sezione {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+#containersezione {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+}
+
+[class^="foto"] {
+  width: 210px;
+  height: 135px;
+  margin-left: 25px;
+  background-image: url(/base_di_partenza/assets/imgs/image08.jpeg);
+  background-size: cover;
+}
+.foto2 {
+  background-image: url(/base_di_partenza/assets/imgs/image10.jpeg);
+}
+.foto3 {
+  background-image: url(/base_di_partenza/assets/imgs/image12.png);
+}
+.foto4 {
+  background-image: url(/base_di_partenza/assets/imgs/image14.png);
+}
+.foto5 {
+  background-image: url(/base_di_partenza/assets/imgs/image16.jpg);
+}
+.foto6 {
+  background-image: url(/base_di_partenza/assets/imgs/image18.jpeg);
+}
+.foto7 {
+  background-image: url(/base_di_partenza/assets/imgs/image20.jpg);
+}
+
+/* ASIDE */
+
+aside {
+  width: 31%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tasto {
+  color: #191919a2;
+  background-color: white;
+  font-size: 0.7rem;
+  border: 0.2px solid #1919192f;
+  padding: 5px 10px;
+  margin: 3px 3px 3px 0;
+}
+
+aside div {
+  margin: 15px 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.tasto2 {
+  color: #191919a2;
+  background-color: white;
+  font-size: 0.7rem;
+  margin: 0 18px 5px 0;
+  padding: 0;
+  border: none;
+}
+
+/* ANIMAZIONE */
+
+#containernav {
+  position: fixed;
+  width: 100%;
+  background-color: #ffc017;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  z-index: 1000;
+}
+
+#containernav button {
+  transition: background-color 0.3s ease;
+}
+
+#containernav.scrolled {
+  background-color: white;
+}
+
+#containernav.scrolled button {
+  background-color: green;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 576px) {
+  header svg {
+    display: none;
+  }
+  nav p:nth-of-type(-n + 3) {
+    display: none;
+  }
+  #articoli {
+    flex-direction: column;
+  }
+  .articolo {
+    width: 100%;
+  }
+  .nome {
+    font-size: 0.7rem;
+  }
+
+  .titoloart {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  .data {
+    font-size: 0.8rem;
+  }
+
+  .articolo1 .stella img {
+    display: none;
+  }
+  section {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #containersezione {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+
+  aside {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    order: 1;
+  }
+
+  aside div {
+    margin: 15px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+  }
+}
+
+/* TABLET */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  header svg {
+    right: -230px;
+  }
+  header {
+    overflow: hidden;
+  }
+  .articolo {
+    width: 48%;
+  }
+  .nome {
+    font-size: 0.7rem;
+  }
+
+  .titoloart {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  .data {
+    font-size: 0.8rem;
+  }
+
+  .articolo1 .stella img {
+    display: none;
+  }
+  section {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #containersezione {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+
+  aside {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    order: 1;
+  }
+
+  aside div {
+    margin: 15px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+  }
+}
